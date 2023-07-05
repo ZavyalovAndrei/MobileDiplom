@@ -1,13 +1,13 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("/fonts/OpenSans-Regular.woff") format("woff");
+  src: url("/MobileDiplom/fonts/OpenSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("/fonts/OpenSans-Bold.woff") format("woff");
+  src: url("/MobileDiplom/fonts/OpenSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
@@ -50,7 +50,7 @@ body {
   position: relative;
   max-width: 100%;
   padding-bottom: 124px;
-  background-image: url("/images/banner-bg.jpg");
+  background-image: url("/MobileDiplom/images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -146,7 +146,7 @@ body {
       )
   );
   aspect-ratio: 1.3/1;
-  background-image: url("/images/trend1.jpg");
+  background-image: url("/MobileDiplom/images/trend1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: end;
@@ -154,14 +154,14 @@ body {
 }
 
 .trand-img-box:nth-child(2) {
-  background-image: url("/images/trend2.jpg");
+  background-image: url("/MobileDiplom/images/trend2.jpg");
 }
 
 .trand-img-box:nth-child(3) {
-  background-image: url("/images/trend3.jpg");
+  background-image: url("/MobileDiplom/images/trend3.jpg");
 }
 .trand-img-box:nth-child(4) {
-  background-image: url("/images/trend4.jpg");
+  background-image: url("/MobileDiplom/images/trend4.jpg");
 }
 
 .trand-img-box::after {
@@ -768,7 +768,7 @@ body {
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .header-bkg {
-    background-image: url("/images/banner-bg-tablet.jpg");
+    background-image: url("/MobileDiplom/images/banner-bg-tablet.jpg");
     padding-bottom: 113px;
   }
 
@@ -955,7 +955,7 @@ body {
 
 @media (max-width: 640px) {
   .header-bkg {
-    background-image: url("/images/banner-mobile.jpg");
+    background-image: url("/MobileDiplom/images/banner-mobile.jpg");
     padding-bottom: 211px;
   }
 
