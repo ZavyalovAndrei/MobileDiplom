@@ -403,7 +403,7 @@ body {
 }
 
 .aside-search-button {
-  background-image: url(/images/search.svg);
+  background-image: url("/MobileDiplom/images/search.svg");
   background-size: 19px;
   width: 48px;
 }
